@@ -1,5 +1,3 @@
-// MORTGAGE CALCULATOR
-
 import java.text.NumberFormat;
 import java.util.Scanner;
 
@@ -10,7 +8,7 @@ public class Main {
 
         Scanner scanner = new Scanner(System.in);
 
-        System.out.println("Principal: ");
+        System.out.println("Principal Amount: ");
         int principal = scanner.nextInt();
 
         System.out.println("Annual Interest Rate: ");
